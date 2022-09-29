@@ -18,6 +18,6 @@ public class MainCalculate {
 	public static void main(String[] args) {
 		
 	Adder sum =new Adder();
-	System.out.println("Result "+sum.add(89,12));
+	System.out.println("Result "+sum.add(67,13));
 	}
 }
