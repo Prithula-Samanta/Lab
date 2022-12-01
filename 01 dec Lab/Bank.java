@@ -1,3 +1,4 @@
+package Lab;
 class Customer{    
 int amount=500000;    
     
