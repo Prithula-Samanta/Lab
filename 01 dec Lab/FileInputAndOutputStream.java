@@ -1,4 +1,4 @@
-package com.Lab;
+package Lab;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.util.Scanner;
