@@ -42,10 +42,10 @@ public int	retrieveEvenNumber(int N) {
 	  obj.printEvenNumbers();
 	  int number  = obj.retrieveEvenNumber(48);
 	  if(number==0) {
-		  System.out.println("Opps this no is not contain inside the array list ");
+		  System.out.println("Not Present ");
 	  }
 	  else {
-		  System.out.println("The value "+number+" contain inside the arraylist A1");
+		  System.out.println("Yes present");
 	  }
   }
 }
