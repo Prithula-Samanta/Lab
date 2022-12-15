@@ -35,10 +35,10 @@ public class Problem2 {
 	
 	String cnt=obj.retrieveCountry("America");
 	if(cnt==null) {
-		System.out.println("This country is't present in the hashset");
+		System.out.println("Not Present");
 	}
 	else {
-		System.out.println("Yes the country " +cnt+ " present is hashset ");
+		System.out.println("Present");
 	}
 	
 	
