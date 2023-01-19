@@ -50,37 +50,5 @@
   
   </constructor-arg>
  
- </bean>
- 
- <!-- ===========================================================================
-  -->
- <bean id="d" class="com.spring.entity.DoubleValue">
- <constructor-arg name="dbval" value="98.3" ></constructor-arg>
- </bean>
- <!-- ================================================================================ -->
- <bean id="obj" class="com.spring.entity.DependentObject">
- <constructor-arg name ="id" value="20"/>
- <constructor-arg name ="name" value="Abhisek"/>
- <constructor-arg name ="department" value="MCA"/>
- </bean>
- 
- <bean id="dpd" class="com.spring.entity.Dependent">
- <constructor-arg><ref bean="obj" /> </constructor-arg>
- </bean>
- 
-<!--  =============================================================================================
- --> 
- 
- <bean id="ceg" class="com.spring.entity.CollectionEg">
- <constructor-arg name="name" value="Abhisek"/>
- <constructor-arg>
- <list>
- <value>Music</value>
- <value>Practice Typing</value>
- <value>Browsing</value>
- </list>
- 
-  </constructor-arg>
 
- </bean>
  </beans>
